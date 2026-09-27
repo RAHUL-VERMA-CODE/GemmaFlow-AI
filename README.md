@@ -4,23 +4,14 @@ A private, local AI chatbot interface built using **Streamlit**, **LangChain**, 
 
 ---
 
-## 🚀 Live Demo
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](YOUR_STREAMLIT_DEPLOYMENT_URL_HERE)
-
-> **Note:** Replace `YOUR_STREAMLIT_DEPLOYMENT_URL_HERE` with your actual Streamlit deployment link.
-
----
-
 ## 📷 Interface Preview
-
-![GemmaFlow AI Screenshot](frontend.png)
+![alt text](<frontend.png>)
 
 ---
 
 ## ✨ Key Features
 
-- **Local Inference:** Powered by Ollama running Google's Gemma models (`gemma:2b`, `gemma2:2b`).
+- **100% Local Inference:** Powered by Ollama running Google's Gemma models (`gemma:2b`, `gemma2:2b`) entirely on your machine.
 - **Interactive Chat Interface:** Clean UI rendered using Streamlit chat components.
 - **Observability Integration:** Built-in tracing with LangSmith via `.env` configuration.
 - **Dynamic Model Selection:** Switch models on the fly from the sidebar.
